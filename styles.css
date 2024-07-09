@@ -1,0 +1,55 @@
+:root {
+  --bears-blue: #0b162a;
+  --bears-orange: #e64100;
+  --bears-display: "Bebas Neue", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  /* (62.5/100) * 16px = 10px */
+  -webkit-text-size-adjust: none;
+  /* for iOS Safari */
+  text-size-adjust: none;
+  /* for other mobile browsers */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  width: 100px;
+}
+
+header {
+  text-align: center;
+  background-color: var(--bears-blue);
+}
+
+.title {
+  font-family: var(--bears-display);
+  font-size: clamp(4rem, 3.5rem + 1.25vw, 5rem);
+  text-align: center;
+  color: var(--bears-orange);
+}
+
+.disclosure {
+  color: grey;
+  font-style: italic;
+}
+
+.roster-filters {
+  
+}
